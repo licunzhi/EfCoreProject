@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using EFCoreScaffoldDemo.Models;
+using EFCoreScaffold.Models;
 
-namespace EFCoreScaffoldDemo.Data
+namespace EFCoreScaffold.Data
 {
-    public partial class EFCoreContext : DbContext
+    public partial class EFCoreScaffoldContext : DbContext
     {
-        public EFCoreContext()
+        public EFCoreScaffoldContext()
         {
         }
 
-        public EFCoreContext(DbContextOptions<EFCoreContext> options)
+        public EFCoreScaffoldContext(DbContextOptions<EFCoreScaffoldContext> options)
             : base(options)
         {
         }

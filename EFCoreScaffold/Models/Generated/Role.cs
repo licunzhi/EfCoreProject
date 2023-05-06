@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFCoreScaffoldDemo.Models
+namespace EFCoreScaffold.Models
 {
     [Index("UserId", Name = "IX_Roles_UserId")]
     public partial class Role
