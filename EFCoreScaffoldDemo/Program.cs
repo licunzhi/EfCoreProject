@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using EFCoreScaffoldDemo.Data;
 
-Console.WriteLine("Hello, World!");
+using var efDbContext = new EFCoreContext();
+
+var user = efDbContext.Users.FirstOrDefault();
+Console.WriteLine($"Id : {user.Id}");
+Console.WriteLine($"Name : {user.FirstName} {user.LastName}");
+Console.WriteLine($"Phone : {user.PhoneNumber}");
+Console.WriteLine($"Address : {user.Address}");
