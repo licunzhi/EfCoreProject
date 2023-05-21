@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreProject", "EfCoreProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreScaffold", "EFCoreScaffold\EFCoreScaffold.csproj", "{D3737E28-6ECC-4968-909B-2694A876B322}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreMultiDb", "EFCoreMultiDb\EFCoreMultiDb.csproj", "{66791E7B-F6B8-4AA3-961E-2476D59A77FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D3737E28-6ECC-4968-909B-2694A876B322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3737E28-6ECC-4968-909B-2694A876B322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3737E28-6ECC-4968-909B-2694A876B322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66791E7B-F6B8-4AA3-961E-2476D59A77FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66791E7B-F6B8-4AA3-961E-2476D59A77FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66791E7B-F6B8-4AA3-961E-2476D59A77FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66791E7B-F6B8-4AA3-961E-2476D59A77FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
