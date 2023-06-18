@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreScaffold", "EFCoreSca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreMultiDb", "EFCoreMultiDb\EFCoreMultiDb.csproj", "{66791E7B-F6B8-4AA3-961E-2476D59A77FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetMapster", "DotnetMapster\DotnetMapster.csproj", "{1B1FADA6-DDB4-4EC2-BFD9-2A70D350FAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapsterOnApiProject", "MapsterOnApiProject\MapsterOnApiProject.csproj", "{A97C0B1C-9A1E-41E4-BF82-B0EC1D279BBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{66791E7B-F6B8-4AA3-961E-2476D59A77FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66791E7B-F6B8-4AA3-961E-2476D59A77FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66791E7B-F6B8-4AA3-961E-2476D59A77FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1FADA6-DDB4-4EC2-BFD9-2A70D350FAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1FADA6-DDB4-4EC2-BFD9-2A70D350FAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1FADA6-DDB4-4EC2-BFD9-2A70D350FAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1FADA6-DDB4-4EC2-BFD9-2A70D350FAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97C0B1C-9A1E-41E4-BF82-B0EC1D279BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97C0B1C-9A1E-41E4-BF82-B0EC1D279BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97C0B1C-9A1E-41E4-BF82-B0EC1D279BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97C0B1C-9A1E-41E4-BF82-B0EC1D279BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,12 @@
+2023-06-18 17:00 PM
+C# Mapster
+少写代码
+
+依赖部分
+PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+
+<PackageReference Include="Mapster" Version="7.3.0" />
