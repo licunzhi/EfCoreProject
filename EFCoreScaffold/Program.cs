@@ -1,4 +1,6 @@
-﻿using EFCoreScaffold.Data;
+﻿using System;
+using System.Linq;
+using EFCoreScaffold.Data;
 
 using var efDbContext = new EFCoreScaffoldContext();
 

@@ -1,3 +1,5 @@
+using System;
+
 namespace DotnetMapster.Dto;
 
 public class ProductItemDto

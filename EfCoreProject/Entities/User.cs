@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace EfCoreProject.Entities;
 
 public class User
