@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreTransaction", "EFCore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorLightTemplate", "RazorLightTemplate\RazorLightTemplate.csproj", "{4C647168-A17F-43C6-A354-6A7807030F76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreProjectDeployment", "EFCoreProjectDeployment\EFCoreProjectDeployment.csproj", "{641DCCDC-2CC9-4AD6-8399-A16CB353533E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{4C647168-A17F-43C6-A354-6A7807030F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C647168-A17F-43C6-A354-6A7807030F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C647168-A17F-43C6-A354-6A7807030F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641DCCDC-2CC9-4AD6-8399-A16CB353533E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641DCCDC-2CC9-4AD6-8399-A16CB353533E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641DCCDC-2CC9-4AD6-8399-A16CB353533E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641DCCDC-2CC9-4AD6-8399-A16CB353533E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
