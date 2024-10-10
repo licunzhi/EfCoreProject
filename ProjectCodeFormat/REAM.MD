@@ -63,7 +63,12 @@ create a new folder in your project
 
 ## pre-commit validation
 ```shell
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
+dotnet format --verify-no-changes
+
+echo 'code format validation by Husky passed!'
 ```
 
 
