@@ -36,7 +36,7 @@ dotnet_style_null_propagation = true
 
 ## husky install
 - Husky install
-`dotnet tool install --global Husky`
+`sudo dotnet tool install --global Husky`
 
 - Husky init
 `husky install`
